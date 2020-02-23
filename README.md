@@ -43,7 +43,7 @@ systemctl daemon-reload
 systemctl enable py-kms.service
 systemctl start py-kms.service
 systemctl status py-kms.service
-
+```
 
 
 
@@ -52,7 +52,7 @@ systemctl status py-kms.service
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX  # For windows 10 pro
 slmgr.vbs /skms x.x.x.x ( x.x.x.x is ip address of the server)
 slmgr.vbs /ato
-  ```
+```
 
 
 ```

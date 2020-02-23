@@ -55,4 +55,4 @@ slmgr.vbs /ato
   ```
 
 
-```-If you keed kms key check here https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
+```If you keed kms key check here https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys

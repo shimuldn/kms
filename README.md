@@ -16,12 +16,10 @@ git clone https://github.com/shimuldn/kms
 mv kms/py-kms/ /usr/local/sbin/
 rm -r kms
 chmod 755 py-kms/pykms_Server.py
-
-
 nano /lib/systemd/system/py-kms.service
-
+```
 ---------------- Put everything bellow this line on py-kms.service ----------------------
-
+```
 [Unit]
 Description=Microsoft KMS emulator
 After=network.target auditd.service
@@ -37,10 +35,10 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 Alias=py-kms.service
-
+```
 ---------------- Put everything before this line on py-kms.service ----------------------
 
-
+```
 systemctl daemon-reload
 systemctl enable py-kms.service
 systemctl start py-kms.service

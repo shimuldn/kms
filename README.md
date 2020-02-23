@@ -2,7 +2,7 @@
 
 
 # Tested on Ubuntu 18.04
-### Port 1688 need to open
+### Port 1688 need to work
 
 ```
 sudo bash

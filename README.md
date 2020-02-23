@@ -1,4 +1,4 @@
-
+# KMS server on python
 
 
 # Tested on Ubuntu 18.04
@@ -51,7 +51,7 @@ systemctl status py-kms.service
 # For windows activation
 ```
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX  # For windows 10 pro
-slmgr.vbs /skms x.x.x.x ( x.x.x.x is ip address of the server)
+slmgr.vbs /skms k.myddns.me ( Replace k.myddns.me with your server ip address of the server)
 slmgr.vbs /ato
 ```
 

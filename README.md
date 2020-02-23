@@ -59,6 +59,6 @@ slmgr.vbs /ato
 
 If you keed kms key check [here](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys/)
 
-
+Check [here](https://github.com/SystemRage/py-kms) for more.
 
 Enjoy

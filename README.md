@@ -3,9 +3,11 @@
 
 # Tested on Ubuntu 18.04
 
+```
 sudo bash
 apt update && apt upgrade -y && apt-get install python3-tk python3-pip -y && pip3 install tzlocal pysqlite3 && reboot
-
+```
+```
 sudo bash
 cd /usr/local/sbin/
 

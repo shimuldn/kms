@@ -51,6 +51,7 @@ systemctl status py-kms.service
 # For windows activation
 ```
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX  # For windows 10 pro
+slmgr /ipk FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4  # For windows 7 pro
 slmgr.vbs /skms k.myddns.me #(Replace k.myddns.me with your server ip address of the server)
 slmgr.vbs /ato
 ```
